@@ -1,0 +1,69 @@
+\documentclass[11pt,a4paper,sans]{moderncv} 
+\usepackage{multicol}
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+
+
+
+\newcommand{\MYhref}[3][gray]{\href{#2}{\color{#1}{#3}}}%
+
+
+\moderncvstyle{casual} 
+\moderncvcolor{blue} 
+
+\usepackage[scale=0.75]{geometry}
+
+\name{Mateusz}{Hazy}
+\title{Curriculum Vitae} 
+\address{Torfowa 14}{51-170 Wrocław}{Poland} 
+\phone[mobile]{+48~782~770~550} 
+\email{mateuszhazy@gmail.com}
+\social[github]{matiwertyl2}
+
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\cventry{2016--2019}{Bachelor of Science}{
+\MYhref{http://www.ii.uni.wroc.pl/}{University of Wrocław}}{}{}{Joint Studies in Computer Science and Mathematics. Currently enrolled.}
+\cventry{2013--2016}{High School Diploma}{
+\MYhref{http://lo14.wroc.pl/}{14th High School}}{Wrocław}{}{Individualized course of study and participant of the science camps in Informatics and Mathematics.
+Graduated receiving headmaster award for science achievements.} 
+
+\section{Experience}
+\cventry{2018}{Software Developer Intern}{}{\MYhref{https://www.gresearch.co.uk/}{G-Research}, London}{}{Created service for uploading and browsing multi-file documents. Server was written in ASP.NET Core and deployed on Kubernetes. User interface was made in Angular 6.} 
+\cventry{2017}{Software Developer Intern}{}{\MYhref{https://www.samsung.com/pl/aboutsamsung/careers/careers-center/}{Samsung R\&D Institute Poland}, Warsaw}{}{Involved in HbbTV maintenance project. Used technologies: C++, Python, Bash.}
+\cventry{2016--2017}{Tutor and Teacher}{\MYhref{http://www.ii.uni.wroc.pl/}{University of Wrocław}}{}{}{Teached algorithms during science camps, prepared students for the Polish
+Olympiad in Informatics and organised programming \MYhref{http://solve.edu.pl/~sparingi/}{workshops}.}
+
+
+\section{Languages}
+\hspace*{\dimexpr\hintscolumnwidth+\separatorcolumnwidth\relax}
+\begin{minipage}{\maincolumnwidth}
+\begin{multicols*}{3}
+\item \textbf{English} Fluent 
+\item \textbf{German} Basic
+\item \textbf{Polish} Native
+\end{multicols*}
+\end{minipage}
+
+
+
+\section{Computer skills}
+\cvitem{Programming}{C++, C\#, Java, JavaScript, Python}
+\cvitem{}{Algorithms and data structures, Machine learning}
+\cvitem{Web}{HTML, Angular}
+\cvitem{Other}{Bash, Linux user, Git}{}{}
+
+\section{Awards}
+\cvitemwithcomment{}{Bronze Medal in the 23rd Polish Olympiad in Informatics}{\MYhref{http://www.oi.edu.pl/contestants/Mateusz\%20Hazy/}{}}
+\cvitemwithcomment{}{Bronze Medal in the 7th Open team Programming Contest in Opole}{
+\MYhref{https://wu.po.opole.pl/najlepiej-programuja-pedzace-zolwie/}{}}
+\cvitemwithcomment{}{Wrocław Government Scholarship holder in 2015/2016 and 2016/2017}{}
+
+\section{Interests}
+\cvitem{}{Ice hockey, gym, travelling, fantasy books}
+
+
+\end{document}
